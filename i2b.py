@@ -17,6 +17,7 @@ def b2d ( b ) :
         i -= 1
     return r
 
+print ('Введите числа в двоичном виде X1 и X2, я перемножу их и выведу результат в двоичном виде')
 print ('input X1')
 x1 = input()
 print ('input X2')

@@ -7,12 +7,13 @@ from bs4 import BeautifulSoup
 import tqdm
 import json
 
+print ('Эта программа парсит HH на предмет вакансий python разработчик и собранные данные сохраняет в файл vacancies.json')
 
 data = {
     "vacancies" : []
 }
 i = 1
-for p in range(0,50):
+for p in range(0,40):
     page_title = F"------- PAGE {p} ----------"
     print ( page_title )
     url = f'https://hh.ru/search/vacancy?text=python+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA&clusters=true&area=113&ored_clusters=true&enable_snippets=true&page={p}'
