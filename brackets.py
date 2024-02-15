@@ -14,7 +14,7 @@ while l > 1 :
     l = len ( s )
     i += 1
 if valid :
-    print (i, 'valid')
+    print (i, 'valid!')
 else:
-    print (i, 'not valid')
+    print (i, 'not valid!')
 
